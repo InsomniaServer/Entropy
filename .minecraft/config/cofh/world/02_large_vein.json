@@ -1,0 +1,162 @@
+{
+	"priority":5,
+	"dependencies": [
+		"nuclearcraft",
+		"projectred-exploration",
+		"techreborn",
+		"actuallyadditions",
+		"mysticalagriculture",
+	],
+	"populate": {
+		"large_vein_hight": {
+			"distribution": "gaussian",
+			"generator":{
+				"material": "minecraft:stone",
+			},
+			"center-height":80
+			"spread":16
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"large_vein_medium": {
+			"distribution": "gaussian",
+			"generator":{
+				"material": "minecraft:stone",
+			},
+			"center-height":48
+			"spread":16
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		
+		"large_vein_low": {
+			"distribution": "gaussian",
+			"generator":{
+				"material": "minecraft:stone",
+				"type": "consecutive",
+				"generators":[
+					{
+						"type": "sequential",
+						"material": "minecraft:stone",
+						"weight": 100,
+						"generators": [
+							{
+								"type": "large-vein",
+								"block": [
+									{ 
+										"name":"diamond_ore",
+										"weight": 75,
+									},
+									{
+										"name":"coal_ore",
+										"weight": 25,
+									}
+								],
+								"cluster-size":25
+							},
+							{
+								"type": "large-vein",
+								"block": "coal_ore",
+								"cluster-size": 75,
+							},
+						]
+					},
+					{
+						"type": "sequential",
+						"material": "minecraft:stone",
+						"weight": 100,
+						"generators": [
+							{
+								"type": "large-vein",
+								"block": [
+									{
+										"name":"projectred-exploration:ore",
+										"properties":{
+											"type": "silver_ore",
+										},
+										"weight":75,
+									},
+									{
+										"name":"techreborn:ore",
+										"properties":{
+											"type": "galena",
+										},
+										"weight":25,
+									},
+								],
+								"cluster-size":25
+							},
+							{
+								"type": "large-vein",
+								"block": [
+									{
+										"name":"projectred-exploration:ore",
+										"properties":{
+											"type": "silver_ore",
+										},
+										"weight":50,
+									},
+									{
+										"name":"techreborn:ore",
+										"properties":{
+											"type": "galena",
+										},
+										"weight":50,
+									},
+								],
+								"cluster-size":25
+							},
+							{
+								"type": "large-vein",
+								"block": [
+									{
+										"name":"nuclearcraft:ore",
+										"properties":{
+											"type": "lead",
+										},
+										"weight":75,
+									},
+									{
+										"name":"techreborn:ore",
+										"properties":{
+											"type": "galena",
+										},
+										"weight":25,
+									},
+								],
+								"cluster-size":50
+							},
+						]
+					}
+				]
+			},
+			"cluster-count":1,
+			"center-height":16
+			"spread":16
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}

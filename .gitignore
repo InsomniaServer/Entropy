@@ -1,0 +1,14 @@
+.ReAuth.cfg
+*.log
+*.zip
+option.txt
+server.dat
+*/saves/*
+*/screenshots/*
+*/crash-reports/*
+usercache.json
+usernamecache.json
+server.dat
+*/journeymap/*
+*/noctrl/*
+*/schematics/*
