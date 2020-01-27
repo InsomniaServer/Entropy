@@ -12,3 +12,5 @@ server.dat
 */journeymap/*
 */noctrl/*
 */schematics/*
+*.gz
+*/natives/*
