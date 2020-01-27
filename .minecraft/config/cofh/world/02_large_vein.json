@@ -8,12 +8,126 @@
 		"mysticalagriculture",
 	],
 	"populate": {
+
 		"large_vein_hight": {
 			"distribution": "gaussian",
-			"generator":{
-				"material": "minecraft:stone",
-			},
+			"generator":[
+				{
+					"type": "sequential",
+					"material": "minecraft:stone",
+					"weight": 25,
+					"generators": [
+						{
+							"material": "minecraft:stone",
+							"type": "large-vein",
+							"block": [
+								{
+									"name":"coal_ore",
+									"weight":75
+								},
+							],
+								"cluster-size":100
+						},
+					],
+				},
+				{
+					"type": "sequential",
+					"material": "minecraft:stone",
+					"weight": 25,
+					"generators": [
+					
+						{
+							"material": "minecraft:stone",
+							"type": "large-vein",
+							"block": [
+								{
+									"name":"emerald_ore",
+									"weight":30,
+								},
+								{
+									"name":"techreborn:ore",
+									"properties":{
+										"type": "bauxite",
+									},
+									"weight":70,
+								},
+							],
+							"cluster-size":25
+						},
+						{
+							"type": "large-vein",
+							"material": "minecraft:stone",
+							"block": [
+								{
+									"name":"emerald_ore",
+									"weight":25,
+								},
+								{
+									"name":"techreborn:ore",
+									"properties":{
+											"type": "bauxite",
+									},
+									"weight":75,
+								},
+							],
+							"cluster-size":25
+						},
+					]
+				},
+				{
+					"type": "sequential",
+					"material": "minecraft:stone",
+					"weight": 25,
+					"generators": [
+					
+						{
+							"material": "minecraft:stone",
+							"type": "large-vein",
+							"block": [
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+										"type": "lithium",
+									},
+									"weight":75,
+								},
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+										"type": "magnesium",
+									},
+									"weight":25,
+								},
+							],
+							"cluster-size":25
+						},
+						{
+							"type": "large-vein",
+							"material": "minecraft:stone",
+							"block": [
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+											"type": "lithium",
+									},
+									"weight":25,
+								},
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+											"type": "magnesium",
+									},
+									"weight":75,
+								},
+							],
+							"cluster-size":25
+						},
+					]
+				},
+			],
 			"center-height":80
+			"chunk-chance": 5,
+			"cluster-count":1,
 			"spread":16
 			"retrogen": false,
 			"biome": "all",
@@ -25,13 +139,206 @@
 				]
 			}
 		},
-		
+
 		"large_vein_medium": {
 			"distribution": "gaussian",
-			"generator":{
-				"material": "minecraft:stone",
-			},
-			"center-height":48
+			"generator":[
+				{
+					"type": "sequential",
+					"material": "minecraft:stone",
+					"weight": 25,
+					"generators": [
+						{
+							"material": "minecraft:stone",
+							"type": "large-vein",
+							"block": [
+								{
+									"name":"coal_ore",
+									"weight":75
+								},
+							],
+								"cluster-size":100
+						},
+					],
+				},
+				{
+					"type": "sequential",
+					"material": "minecraft:stone",
+					"weight": 25,
+					"generators": [
+						{
+							"material": "minecraft:stone",
+							"type": "large-vein",
+							"block": [
+								{
+									"name":"iron_ore",
+									"weight":75,
+								},
+								{
+									"name":"mysticalagriculture:inferium_ore",
+									"weight":25,
+								},
+							],
+							"cluster-size":25
+						},
+						{
+							"type": "large-vein",
+							"material": "minecraft:stone",
+							"block": [
+								{
+									"name":"mysticalagriculture:inferium_ore",
+									"weight":50,
+								},
+								{
+									"name":"iron_ore",
+									"weight":50,
+								},
+							],
+							"cluster-size":25
+						},
+						{
+							"type": "large-vein",
+							"material": "minecraft:stone",
+							"block": [
+								{
+									"name":"actuallyadditions:block_misc",
+									"properties":{
+										"type": "ore_black_quartz",
+									},
+									"weight":75,
+								},
+								{
+									"name":"mysticalagriculture:inferium_ore",
+									"weight":25,
+								},
+							],
+							"cluster-size":50
+						},
+					]
+				},
+				{
+					"type": "sequential",
+					"material": "minecraft:stone",
+					"weight": 25,
+					"generators": [
+						{
+							"material": "minecraft:stone",
+							"type": "large-vein",
+							"block": [
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+										"type": "thorium",
+									},
+									"weight":25,
+								},
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+										"type": "uranium",
+									},
+									"weight":75,
+								},
+							],
+							"cluster-size":25
+						},
+						{
+							"type": "large-vein",
+							"material": "minecraft:stone",
+							"block": [
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+										"type": "uranium",
+									},
+									"weight":50,
+								},
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+											"type": "lead",
+									},
+									"weight":50,
+								},
+							],
+							"cluster-size":25
+						},
+						{
+							"type": "large-vein",
+							"material": "minecraft:stone",
+							"block": [
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+										"type": "lead",
+									},
+									"weight":75,
+								},
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+										"type": "uranium",
+									},
+									"weight":25,
+								},
+							],
+							"cluster-size":50
+						},
+					]
+				},
+				{
+					"type": "sequential",
+					"material": "minecraft:stone",
+					"weight": 25,
+					"generators": [
+						{
+							"material": "minecraft:stone",
+							"type": "large-vein",
+							"block": [
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+										"type": "tin",
+									},
+									"weight":75,
+								},
+								{
+									"name":"techreborn:ore",
+									"properties":{
+										"type": "bauxite",
+									},
+									"weight":25,
+								},
+							],
+							"cluster-size":50
+						},
+						{
+							"type": "large-vein",
+							"material": "minecraft:stone",
+							"block": [
+								{
+									"name":"nuclearcraft:ore",
+									"properties":{
+										"type": "tin",
+									},
+									"weight":25,
+								},
+								{
+									"name":"techreborn:ore",
+									"properties":{
+											"type": "bauxite",
+									},
+									"weight":75,
+								},
+							],
+							"cluster-size":50
+						},
+					]
+				},
+			],
+			"cluster-count":1,
+			"center-height":48,
+			"chunk-chance": 5,
 			"spread":16
 			"retrogen": false,
 			"biome": "all",
@@ -46,16 +353,14 @@
 		
 		"large_vein_low": {
 			"distribution": "gaussian",
-			"generator":{
-				"material": "minecraft:stone",
-				"type": "consecutive",
-				"generators":[
+			"generator":[
 					{
 						"type": "sequential",
 						"material": "minecraft:stone",
-						"weight": 100,
+						"weight": 25,
 						"generators": [
 							{
+								"material": "minecraft:stone",
 								"type": "large-vein",
 								"block": [
 									{ 
@@ -67,9 +372,10 @@
 										"weight": 25,
 									}
 								],
-								"cluster-size":25
+								"cluster-size":25,
 							},
 							{
+								"material": "minecraft:stone",
 								"type": "large-vein",
 								"block": "coal_ore",
 								"cluster-size": 75,
@@ -79,9 +385,10 @@
 					{
 						"type": "sequential",
 						"material": "minecraft:stone",
-						"weight": 100,
+						"weight": 25,
 						"generators": [
 							{
+								"material": "minecraft:stone",
 								"type": "large-vein",
 								"block": [
 									{
@@ -103,6 +410,7 @@
 							},
 							{
 								"type": "large-vein",
+								"material": "minecraft:stone",
 								"block": [
 									{
 										"name":"projectred-exploration:ore",
@@ -123,6 +431,7 @@
 							},
 							{
 								"type": "large-vein",
+								"material": "minecraft:stone",
 								"block": [
 									{
 										"name":"nuclearcraft:ore",
@@ -142,12 +451,129 @@
 								"cluster-size":50
 							},
 						]
-					}
-				]
-			},
+					},
+					{
+						"type": "sequential",
+						"material": "minecraft:stone",
+						"weight": 25,
+						"generators": [
+							{
+								"type": "large-vein",
+								"material": "minecraft:stone",
+								"block": [
+									{
+										"name":"lapis_ore",
+										"weight":75,
+									},
+									{
+										"name":"mysticalagriculture:prosperity_ore",
+										"weight":25,
+									},
+								],
+								"cluster-size":25
+							},
+							{
+								"type": "large-vein",
+								"material": "minecraft:stone",
+								"block": [
+									{
+										"name":"lapis_ore",
+										"weight":50,
+									},
+									{
+										"name":"mysticalagriculture:prosperity_ore",
+										"weight":50,
+									},
+								],
+								"cluster-size":25
+							},
+							{
+								"type": "large-vein",
+								"material": "minecraft:stone",
+								"block": [
+									{
+										"name":"lapis_ore",
+										"weight":75,
+									},
+									{
+										"name":"mysticalagriculture:prosperity_ore",
+										"weight":25,
+									},
+								],
+								"cluster-size":50
+							},
+						]
+					},
+					{
+						"type": "sequential",
+						"material": "minecraft:stone",
+						"weight": 25,
+						"generators": [
+							{
+								"type": "large-vein",
+								"material": "minecraft:stone",
+								"block": [
+									{
+										"name":"redstone_ore",
+										"weight":75,
+									},
+									{
+										"name":"nuclearcraft:ore",
+										"properties":{
+											"type": "copper",
+										},
+										"weight":25,
+									},
+								],
+								"cluster-size":25
+							},
+							{
+								"type": "large-vein",
+								"material": "minecraft:stone",
+								"block": [
+									{
+										"name":"redstone_ore",
+										"weight":50,
+									},
+									{
+										"name":"nuclearcraft:ore",
+										"properties":{
+											"type": "copper",
+										},
+										"weight":50,
+									},
+								],
+								"cluster-size":25
+							},
+							{
+								"type": "large-vein",
+								"material": "minecraft:stone",
+								"block": [
+									{
+										"name":"nuclearcraft:ore",
+										"properties":{
+											"type": "copper",
+										},
+										"weight":50,
+									},
+									{
+										"name":"gold_ore",
+										"weight":25,
+									},
+									{
+										"name":"redstone_ore",
+										"weight":25,
+									},
+								],
+								"cluster-size":50
+							},
+						]
+					},
+				],
 			"cluster-count":1,
-			"center-height":16
-			"spread":16
+			"chunk-chance": 5,
+			"center-height":16,
+			"spread":16,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -155,7 +581,7 @@
 				"value": [
 					-1,
 					1
-				]
+				],
 			}
 		}
 	}

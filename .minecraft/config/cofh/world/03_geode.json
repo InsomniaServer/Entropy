@@ -1,0 +1,122 @@
+{
+	"priority": 2,
+	"dependencies": [
+		"projectred-exploration",
+	],
+	"populate": {
+		"ruby": {
+			"distribution": "gaussian",
+			"generator":{
+				"type": "geode",
+				"hollow": true,
+				"block": {
+					"name": "projectred-exploration:ore",
+					"properties":{
+						"type": "ruby_ore",
+					}
+				},
+				"material": "minecraft:stone",
+				"filler": "minecraft:lava",
+				"crust": [
+					{
+						"name":"redstone_ore",
+						"weight":2
+					},
+					{
+						"name":"minecraft:stone",
+						"weight":98
+					}
+				],
+			}
+			"center-height":16,
+			"chunk-chance": 20,
+			"cluster-count":1,
+			"spread":8
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"sapphire": {
+			"distribution": "gaussian",
+			"generator":{
+				"type": "geode",
+				"hollow": true,
+				"block": {
+					"name": "projectred-exploration:ore",
+					"properties":{
+						"type": "sapphire_ore",
+					}
+				},
+				"material": "minecraft:stone",
+				"filler": "minecraft:lava",
+				"crust": [
+					{
+						"name":"lapis_ore",
+						"weight":2
+					},
+					{
+						"name":"minecraft:stone",
+						"weight":98
+					}
+				],
+			}
+			"center-height":16,
+			"chunk-chance": 20,
+			"cluster-count":1,
+			"spread":8
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"peridot": {
+			"distribution": "gaussian",
+			"generator":{
+				"type": "geode",
+				"hollow": true,
+				"block": {
+					"name": "projectred-exploration:ore",
+					"properties":{
+						"type": "peridot_ore",
+					}
+				},
+				"material": "minecraft:stone",
+				"filler": "minecraft:lava",
+				"crust": [
+					{
+						"name":"emerald_ore",
+						"weight":2
+					},
+					{
+						"name":"minecraft:stone",
+						"weight":98
+					}
+				],
+			}
+			"center-height":16,
+			"chunk-chance": 20,
+			"cluster-count":1,
+			"spread":8
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+	}
+}

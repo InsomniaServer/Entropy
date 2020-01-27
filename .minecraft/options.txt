@@ -106,7 +106,7 @@ key_pe.key.fire_projectile:0
 key_pe.key.mode:0
 key_schematica.key.load:0
 key_schematica.key.save:0
-key_schematica.key.control:74
+key_schematica.key.control:0
 key_schematica.key.layerInc:0
 key_schematica.key.layerDec:0
 key_schematica.key.layerToggle:0
@@ -159,8 +159,8 @@ key_Rotate Vehicle Left:0
 key_Move Vehicle Up:0
 key_Move Vehicle Down:0
 key_key.control:29
-key_key.journeymap.zoom_in:13
-key_key.journeymap.zoom_out:12
+key_key.journeymap.zoom_in:78
+key_key.journeymap.zoom_out:74
 key_key.journeymap.minimap_type:26
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.create_waypoint:48

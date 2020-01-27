@@ -130,7 +130,6 @@
 				]
 			}
 		},
-		
 		"peridot": {
 			"distribution": "gaussian",
 			"generator": {
