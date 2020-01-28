@@ -1,0 +1,18 @@
+{
+  "path": "resource/soils/glowstone_soil.json",
+  "enabled": true,
+  "id": "glowstone_soil",
+  "name": "Glowstone",
+  "varients": [
+    {
+      "item": "minecraft:glowstone",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

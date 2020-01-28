@@ -1,0 +1,18 @@
+{
+  "path": "mod_mysticalagriculture/soils/tier5_soil.json",
+  "enabled": true,
+  "id": "tier5_soil",
+  "name": "Litherite",
+  "varients": [
+    {
+      "item": "environmentaltech:litherite",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

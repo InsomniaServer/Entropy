@@ -15,7 +15,7 @@
 				{
 					"type": "sequential",
 					"material": "minecraft:stone",
-					"weight": 25,
+					"weight": 100,
 					"generators": [
 						{
 							"material": "minecraft:stone",
@@ -33,7 +33,7 @@
 				{
 					"type": "sequential",
 					"material": "minecraft:stone",
-					"weight": 25,
+					"weight": 5,
 					"generators": [
 					
 						{
@@ -77,7 +77,7 @@
 				{
 					"type": "sequential",
 					"material": "minecraft:stone",
-					"weight": 25,
+					"weight": 50,
 					"generators": [
 					
 						{
@@ -146,7 +146,7 @@
 				{
 					"type": "sequential",
 					"material": "minecraft:stone",
-					"weight": 25,
+					"weight": 100,
 					"generators": [
 						{
 							"material": "minecraft:stone",
@@ -164,7 +164,7 @@
 				{
 					"type": "sequential",
 					"material": "minecraft:stone",
-					"weight": 25,
+					"weight": 75,
 					"generators": [
 						{
 							"material": "minecraft:stone",
@@ -219,7 +219,7 @@
 				{
 					"type": "sequential",
 					"material": "minecraft:stone",
-					"weight": 25,
+					"weight": 15,
 					"generators": [
 						{
 							"material": "minecraft:stone",
@@ -357,7 +357,7 @@
 					{
 						"type": "sequential",
 						"material": "minecraft:stone",
-						"weight": 25,
+						"weight": 5,
 						"generators": [
 							{
 								"material": "minecraft:stone",
@@ -455,7 +455,7 @@
 					{
 						"type": "sequential",
 						"material": "minecraft:stone",
-						"weight": 25,
+						"weight": 50,
 						"generators": [
 							{
 								"type": "large-vein",
@@ -507,7 +507,7 @@
 					{
 						"type": "sequential",
 						"material": "minecraft:stone",
-						"weight": 25,
+						"weight": 50,
 						"generators": [
 							{
 								"type": "large-vein",

@@ -9,7 +9,7 @@
     "translations": {},
     "default": "It sure seems to like to glow."
   },
-  "growth_chance": 0.9,
+  "growth_chance": 0.7,
   "growth_bonus": 0.025,
   "bonemeal": false,
   "tier": 1,
@@ -24,8 +24,8 @@
     "products": [
       {
         "min": 1,
-        "max": 4,
-        "chance": 0.9,
+        "max": 1,
+        "chance": 0.8,
         "required": true,
         "item": "minecraft:glowstone_dust",
         "meta": 0,
@@ -37,10 +37,10 @@
     ]
   },
   "requirement": {
-    "min_light": 10,
+    "min_light": 14,
     "max_light": 16,
     "soils": [
-      "soul_sand_soil"
+      "glowstone_soil"
     ],
     "conditions": [
       {
@@ -51,11 +51,13 @@
         "max_x": 0,
         "max_y": -2,
         "max_z": 0,
-        "item": "minecraft:glowstone",
+        "item": "minecraft:gold_block",
         "meta": 0,
         "tags": "",
         "ignoreMeta": true,
-        "ignoreTags": [],
+        "ignoreTags": [
+          "*"
+        ],
         "useOreDict": true
       }
     ]

@@ -35,10 +35,22 @@
     "products": [
       {
         "min": 1,
-        "max": 5,
-        "chance": 0.9,
+        "max": 2,
+        "chance": 0.89,
         "required": true,
         "item": "mysticalagriculture:dirt_essence",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.005,
+        "required": true,
+        "item": "mysticalagriculture:fertilized_essence",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,

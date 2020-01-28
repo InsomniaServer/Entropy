@@ -1,0 +1,18 @@
+{
+  "path": "mod_mysticalagriculture/soils/tier4_soil.json",
+  "enabled": true,
+  "id": "tier4_soil",
+  "name": "Growth Accelerator",
+  "varients": [
+    {
+      "item": "mysticalagriculture:growth_accelerator",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

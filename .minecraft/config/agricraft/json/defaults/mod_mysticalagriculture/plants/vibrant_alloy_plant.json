@@ -20,7 +20,7 @@
     "translations": {},
     "default": "Vibrant Alloy Seeds."
   },
-  "growth_chance": 0.9,
+  "growth_chance": 0.7,
   "growth_bonus": 0.025,
   "bonemeal": false,
   "tier": 1,
@@ -35,10 +35,22 @@
     "products": [
       {
         "min": 1,
-        "max": 5,
-        "chance": 0.9,
+        "max": 2,
+        "chance": 0.61,
         "required": true,
         "item": "mysticalagriculture:vibrant_alloy_essence",
+        "meta": 0,
+        "tags": "",
+        "ignoreMeta": false,
+        "ignoreTags": [],
+        "useOreDict": false
+      },
+      {
+        "min": 1,
+        "max": 1,
+        "chance": 0.005,
+        "required": true,
+        "item": "mysticalagriculture:fertilized_essence",
         "meta": 0,
         "tags": "",
         "ignoreMeta": false,
@@ -51,7 +63,7 @@
     "min_light": 10,
     "max_light": 16,
     "soils": [
-      "farmland_soil"
+      "tier5_soil"
     ],
     "conditions": []
   },

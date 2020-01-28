@@ -1,0 +1,18 @@
+{
+  "path": "mod_mysticalagriculture/soils/tier3_soil.json",
+  "enabled": true,
+  "id": "tier3_soil",
+  "name": "Intermedium",
+  "varients": [
+    {
+      "item": "mysticalagriculture:storage",
+      "meta": 2,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

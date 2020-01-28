@@ -1,0 +1,8 @@
+{
+  "path": "mod_actuallyadditions/mutations/rice_mutation.json",
+  "enabled": true,
+  "chance": 0.5,
+  "child": "actuallyadditions:rice_plant",
+  "parent1": "immersiveengineering:hemp_plant",
+  "parent2": "vanilla:potato_plant"
+}

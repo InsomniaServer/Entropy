@@ -1,0 +1,8 @@
+{
+  "path": "mod_actuallyadditions/mutations/canola_mutation.json",
+  "enabled": true,
+  "chance": 0.4,
+  "child": "actuallyadditions:canola_plant",
+  "parent1": "actuallyadditions:rice_plant",
+  "parent2": "vanilla:cactus_plant"
+}

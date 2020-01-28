@@ -1,0 +1,8 @@
+{
+  "path": "mod_actuallyadditions/mutations/coffee_mutation.json",
+  "enabled": true,
+  "chance": 0.35,
+  "child": "actuallyadditions:coffee_plant",
+  "parent1": "actuallyadditions:canola_plant",
+  "parent2": "vanilla:beet_root_plant"
+}
