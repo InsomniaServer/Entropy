@@ -1,0 +1,118 @@
+~ Saved With Hammer Lib 2.0.6.8
+
++C:$={
+  +I:cfgversion=1
+
+}
+
+
+# Configure how expensive each skill is
++C:Costs={
+  +C:improvableskills/accelerated_furnace={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/alchemist={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/atkdmg_melee={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/atkdmg_ranged={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/attack_speed={
+    +S:formula=%lvl%^1.5
+
+  }
+
+  +C:improvableskills/cutting={
+    +S:formula=%lvl%^1.5
+
+  }
+
+  +C:improvableskills/digging={
+    +S:formula=%lvl%^1.5
+
+  }
+
+  +C:improvableskills/enchanter={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/ender_manipulator={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/generic_protection={
+    +S:formula=%lvl%^2.75
+
+  }
+
+  +C:improvableskills/growth={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/health={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/ladder_king={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/leaper={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/luck_of_the_sea={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/mining={
+    +S:formula=sqrt(%lvl%^3)*3
+
+  }
+
+  +C:improvableskills/obsidian_skin={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/pvp={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/soft_landing={
+    +S:formula=(%lvl%+1)^%xpv%
+
+  }
+
+  +C:improvableskills/treasure_sands={
+    +S:formula=(%lvl%+1)^7+200
+
+  }
+
+  +C:improvableskills/xp+={
+    +S:formula=%lvl%^3+(%lvl%+1)*100
+
+  }
+
+}
+
+
