@@ -4,16 +4,16 @@ mouseSensitivity:0.5
 fov:0.5
 gamma:1.0
 saturation:0.0
-renderDistance:2
+renderDistance:10
 guiScale:3
 particles:2
 bobView:false
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:true
-ao:0
+ao:1
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
@@ -76,25 +76,22 @@ key_key.swapHands:18
 key_key.saveToolbarActivator:0
 key_key.loadToolbarActivator:0
 key_key.advancements:0
-key_key.hotbar.1:2
-key_key.hotbar.2:3
-key_key.hotbar.3:4
-key_key.hotbar.4:5
-key_key.hotbar.5:6
-key_key.hotbar.6:7
-key_key.hotbar.7:8
-key_key.hotbar.8:9
-key_key.hotbar.9:10
+key_key.hotbar.1:0
+key_key.hotbar.2:0
+key_key.hotbar.3:0
+key_key.hotbar.4:0
+key_key.hotbar.5:0
+key_key.hotbar.6:0
+key_key.hotbar.7:0
+key_key.hotbar.8:0
+key_key.hotbar.9:0
 key_of.key.zoom:46
-key_keybind.baublesinventory:48
+key_keybind.baublesinventory:0
 key_arcanearchives.gui.keybinds.manifest:0
-key_key.betterquesting.quests:40
+key_key.betterquesting.quests:2
 key_key.conarm.toggle_helm.desc:0
 key_key.conarm.toggle_chest.desc:0
 key_key.conarm.toggle_leg.desc:0
-key_key.elementaristics_up:0
-key_key.elementaristics_down:0
-key_key.elementaristics_master:28
 key_key.findme.search:20
 key_key.ftbutilities.nbt:0
 key_key.ftbutilities.trash:211
@@ -167,9 +164,6 @@ key_keys.techreborn.config:0
 key_tombstone.message.knowledge_of_death:0
 key_keys.travellersBackpack.inventory:48
 key_keys.travellersBackpack.toggle_tank:49
-key_Open Matter Scanner GUI:0
-key_Android Ability key:0
-key_Android Switch Ability key:0
 key_Toggle Jetpack:0
 key_Open Rocket GUI:0
 key_Toggle RCS:0

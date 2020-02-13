@@ -1,1 +1,0 @@
-{"CustomData":"{ImprovableSkillsNewsMD5:\"8296aa70a4674b05196cd5218216963a\",ImprovableSkillsNewsTranslated:\"3.6.1r%3A+We+are+introducing+a+few+little+patches+to+how+GUIs+look.+XP+Storage+is+no+longer+a+skill+-+it+has+it%27s+separate+tab.+70r%3A+1.13.2+Port%21\",ImprovableSkillsNewsLang:\"en\"}","Authority":null,"renderSpecial":false,"overrideCape":false,"Theme":null}

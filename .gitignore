@@ -1,7 +1,7 @@
 .ReAuth.cfg
 *.log
 *.zip
-option.txt
+options.txt
 server.dat
 */saves/*
 */screenshots/*
@@ -14,4 +14,6 @@ server.dat
 */schematics/*
 *.gz
 */natives/*
-*/OptiFine*
+OptiFine*
+optionsof.txt
+patchouli_data.json
